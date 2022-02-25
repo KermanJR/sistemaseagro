@@ -383,13 +383,13 @@ while(isset($programacoes[$i])){
         <?php
           }
         ?>
-         <div class="row align-items-center" >
+         <div class="row align-items-center">
          <?php
             $total = count($palestrantes);
             foreach($palestrantes as $indice => $palestrante){
                 if($total==1){
           ?>
-          <img class="rounded-circle" style="width:40%; height: 40%; border-radius: 100%;margin: 0 auto"  src="<?php echo $palestrante->foto; ?>"><br>
+          <img class="rounded-circle" style="width:40%; height: 40%; border-radius: 100%;margin: 0 auto;"  src="<?php echo $palestrante->foto; ?>"><br>
           <?php
             }else if($total==2){
             ?>
